@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c1e4f978-b3bd-4ae1-84e9-9e1170bce808" name="Default" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="DISPLAY_NOTIFICATION_POPUP" value="false" />
+    <option name="CLEAR_OUTPUT_DIRECTORY" value="false" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+    <option name="SCHEME" value="Project" />
+  </component>
+  <component name="FindBugs-IDEA-Workspace">
+    <analyzeAfterCompile>true</analyzeAfterCompile>
+    <toolWindowToFront>false</toolWindowToFront>
+  </component>
+  <component name="ProjectId" id="1rui4Jc35TdcciNkN7OBTp8Keh0" />
+  <component name="ProjectViewState">
+    <option name="abbreviatePackageNames" value="true" />
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="false" />
+    <option name="showModules" value="false" />
+    <option name="sortByType" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ToolWindowMessages.ShowToolbar" value="false" />
+    <property name="ToolWindowRun.ShowToolbar" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="settings.saveactions" />
+  </component>
+  <component name="RunManager" selected="Application.RandomizedQueue">
+    <configuration name="Deque" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="Deque" />
+      <module name="Algorithms, Part I" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Permutation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Permutation" />
+      <module name="Algorithms, Part I" />
+      <option name="PROGRAM_PARAMETERS" value="3 &lt;permutation4.txt" />
+      <method v="2" />
+    </configuration>
+    <configuration name="RandomizedQueue" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="RandomizedQueue" />
+      <module name="Algorithms, Part I" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Permutation" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="653" y="187" key="#com.intellij.ide.util.MemberChooser" timestamp="1619832899736">
+      <screen x="0" y="25" width="1680" height="964" />
+    </state>
+    <state x="653" y="187" key="#com.intellij.ide.util.MemberChooser/0.25.1680.964@0.25.1680.964" timestamp="1619832899736" />
+    <state width="1680" height="313" key="GridCell.Tab.0.bottom" timestamp="1619929239178">
+      <screen x="0" y="25" width="1680" height="965" />
+    </state>
+    <state width="1680" height="253" key="GridCell.Tab.0.bottom/0.25.1680.964@0.25.1680.964" timestamp="1619839445826" />
+    <state width="1680" height="313" key="GridCell.Tab.0.bottom/0.25.1680.965@0.25.1680.965" timestamp="1619929239178" />
+    <state width="1680" height="253" key="GridCell.Tab.0.bottom/0.25.1680.966@0.25.1680.966" timestamp="1619925720387" />
+    <state width="1680" height="313" key="GridCell.Tab.0.center" timestamp="1619929239177">
+      <screen x="0" y="25" width="1680" height="965" />
+    </state>
+    <state width="1680" height="253" key="GridCell.Tab.0.center/0.25.1680.964@0.25.1680.964" timestamp="1619839445825" />
+    <state width="1680" height="313" key="GridCell.Tab.0.center/0.25.1680.965@0.25.1680.965" timestamp="1619929239177" />
+    <state width="1680" height="253" key="GridCell.Tab.0.center/0.25.1680.966@0.25.1680.966" timestamp="1619925720386" />
+    <state width="1680" height="313" key="GridCell.Tab.0.left" timestamp="1619929239177">
+      <screen x="0" y="25" width="1680" height="965" />
+    </state>
+    <state width="1680" height="253" key="GridCell.Tab.0.left/0.25.1680.964@0.25.1680.964" timestamp="1619839445825" />
+    <state width="1680" height="313" key="GridCell.Tab.0.left/0.25.1680.965@0.25.1680.965" timestamp="1619929239177" />
+    <state width="1680" height="253" key="GridCell.Tab.0.left/0.25.1680.966@0.25.1680.966" timestamp="1619925720386" />
+    <state width="1680" height="313" key="GridCell.Tab.0.right" timestamp="1619929239178">
+      <screen x="0" y="25" width="1680" height="965" />
+    </state>
+    <state width="1680" height="253" key="GridCell.Tab.0.right/0.25.1680.964@0.25.1680.964" timestamp="1619839445826" />
+    <state width="1680" height="313" key="GridCell.Tab.0.right/0.25.1680.965@0.25.1680.965" timestamp="1619929239178" />
+    <state width="1680" height="253" key="GridCell.Tab.0.right/0.25.1680.966@0.25.1680.966" timestamp="1619925720387" />
+    <state width="1680" height="313" key="GridCell.Tab.1.bottom" timestamp="1619929239180">
+      <screen x="0" y="25" width="1680" height="965" />
+    </state>
+    <state width="1680" height="313" key="GridCell.Tab.1.bottom/0.25.1680.964@0.25.1680.964" timestamp="1619839407772" />
+    <state width="1680" height="313" key="GridCell.Tab.1.bottom/0.25.1680.965@0.25.1680.965" timestamp="1619929239180" />
+    <state width="1680" height="313" key="GridCell.Tab.1.bottom/0.25.1680.966@0.25.1680.966" timestamp="1619925720384" />
+    <state width="1680" height="313" key="GridCell.Tab.1.center" timestamp="1619929239179">
+      <screen x="0" y="25" width="1680" height="965" />
+    </state>
+    <state width="1680" height="313" key="GridCell.Tab.1.center/0.25.1680.964@0.25.1680.964" timestamp="1619839407771" />
+    <state width="1680" height="313" key="GridCell.Tab.1.center/0.25.1680.965@0.25.1680.965" timestamp="1619929239179" />
+    <state width="1680" height="313" key="GridCell.Tab.1.center/0.25.1680.966@0.25.1680.966" timestamp="1619925720383" />
+    <state width="1680" height="313" key="GridCell.Tab.1.left" timestamp="1619929239179">
+      <screen x="0" y="25" width="1680" height="965" />
+    </state>
+    <state width="1680" height="313" key="GridCell.Tab.1.left/0.25.1680.964@0.25.1680.964" timestamp="1619839407771" />
+    <state width="1680" height="313" key="GridCell.Tab.1.left/0.25.1680.965@0.25.1680.965" timestamp="1619929239179" />
+    <state width="1680" height="313" key="GridCell.Tab.1.left/0.25.1680.966@0.25.1680.966" timestamp="1619925720383" />
+    <state width="1680" height="313" key="GridCell.Tab.1.right" timestamp="1619929239179">
+      <screen x="0" y="25" width="1680" height="965" />
+    </state>
+    <state width="1680" height="313" key="GridCell.Tab.1.right/0.25.1680.964@0.25.1680.964" timestamp="1619839407772" />
+    <state width="1680" height="313" key="GridCell.Tab.1.right/0.25.1680.965@0.25.1680.965" timestamp="1619929239179" />
+    <state width="1680" height="313" key="GridCell.Tab.1.right/0.25.1680.966@0.25.1680.966" timestamp="1619925720383" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/RandomizedQueue.java</url>
+          <line>86</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Permutation.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Deque.java</url>
+          <line>132</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/RandomizedQueue.java</url>
+          <line>150</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/RandomizedQueue.java</url>
+          <line>65</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
