@@ -1,7 +1,9 @@
 package Intervals;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.LinkedList;
+import java.util.List;
 
 class Solution {
 
@@ -72,6 +74,55 @@ class Solution {
             merged.add(toMerge);
         } else {
             merged.getLast()[1] = Math.max(merged.getLast()[1], toMerge[1]);
+        }
+    }
+
+    public int minMeetingRooms(int[][] intervals) {
+        /**/
+        Arrays.sort(intervals, (a, b) -> Integer.compare(a[0], b[0]));
+
+        List<LinkedList<int[]>> schedules = new ArrayList<LinkedList<int[]>>();
+
+        for (int[] interval : intervals) {
+            if (schedules.isEmpty()) {
+                LinkedList<int[]> newSchedule = new LinkedList<int[]>();
+                newSchedule.add(interval);
+                schedules.add(newSchedule);
+            } else {
+                boolean flag = false;
+
+                /*
+                 * This part is ugly and not efficient at all, iterating every schedule is not ideal
+                 * TODO: learn min-heap data structure and come back optimize
+                 * */
+                for (LinkedList<int[]> schedule : schedules) {
+                    if (!isConflicted(schedule, interval)) {
+                        //if true then interval has been merged into that schdule
+                        flag = true;
+                        schedule.add(interval);
+                        break;
+                    }
+                }
+
+                if (!flag) {
+                    //if flag is false after loop then this interval is conflict with all existing schedule, adding a new room
+                    LinkedList<int[]> newSchedule = new LinkedList<int[]>();
+                    newSchedule.add(interval);
+                    schedules.add(newSchedule);
+                }
+            }
+        }
+
+        return schedules.size();
+
+    }
+
+    public boolean isConflicted(LinkedList<int[]> schedule, int[] interval) {
+
+        if (schedule.getLast()[1] <= interval[0]) {
+            return false;
+        } else {
+            return true;
         }
     }
 
