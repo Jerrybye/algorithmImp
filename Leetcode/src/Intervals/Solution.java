@@ -1,9 +1,6 @@
 package Intervals;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.LinkedList;
-import java.util.List;
+import java.util.*;
 
 class Solution {
 
@@ -117,6 +114,46 @@ class Solution {
 
     }
 
+    public int minMeetingRoomsOptimized(int[][] intervals) {
+        //Arrays.sort(intervals, (a, b) -> Integer.compare(a[0], b[0]));
+        int N = intervals.length;
+        Integer[] start = new Integer[N];
+        Integer[] end = new Integer[N];
+
+        for (int i = 0; i < N; i++) {
+            start[i] = intervals[i][0];
+            end[i] = intervals[i][1];
+        }
+        Arrays.sort(start, new Comparator<Integer>() {
+            public int compare(Integer a, Integer b) {
+                return a - b;
+            }
+        });
+
+        Arrays.sort(end, new Comparator<Integer>() {
+            public int compare(Integer a, Integer b) {
+                return a - b;
+            }
+        });
+
+        int startPointer = 0;
+        int endPointer = 0;
+        int usedRooms = 0;
+
+        while (startPointer < N) {
+            if (start[startPointer] >= end[endPointer]) {
+                usedRooms -= 1;
+                endPointer += 1;
+            }
+
+            usedRooms++;
+            startPointer++;
+        }
+
+        return usedRooms;
+
+    }
+
     public boolean isConflicted(LinkedList<int[]> schedule, int[] interval) {
 
         if (schedule.getLast()[1] <= interval[0]) {
@@ -124,6 +161,57 @@ class Solution {
         } else {
             return true;
         }
+    }
+
+    /*
+     * trip[i] = [num_passengers, start_location, end_location]
+     *
+     *  trips.length <= 1000
+        trips[i].length == 3
+        1 <= trips[i][0] <= 100
+        0 <= trips[i][1] < trips[i][2] <= 1000
+        1 <= capacity <= 100000
+     * */
+    public boolean carPooling(int[][] trips, int capacity) {
+
+        int N = trips.length;
+
+        int[][] sLocationAndPassengers = new int[N][2];
+
+        int[][] eLocationAndPassengers = new int[N][2];
+
+
+        for (int i = 0; i < N; i++) {
+            sLocationAndPassengers[i][0] = trips[i][1];
+            eLocationAndPassengers[i][0] = trips[i][2];
+
+            sLocationAndPassengers[i][1] = trips[i][0];
+            eLocationAndPassengers[i][1] = trips[i][0];
+        }
+
+        Arrays.sort(sLocationAndPassengers, (a, b) -> Integer.compare(a[0], b[0]));
+        Arrays.sort(eLocationAndPassengers, (a, b) -> Integer.compare(a[0], b[0]));
+
+        int sp = 0;
+        int ep = 0;
+
+        int seats = capacity;
+        while (sp < N) {
+            if (sLocationAndPassengers[sp][0] < eLocationAndPassengers[ep][0]) {
+                seats = seats - sLocationAndPassengers[sp][1];
+                sp++;
+            } else {
+                seats = seats + eLocationAndPassengers[ep][1];
+                ep++;
+            }
+
+            if (seats < 0) {
+                return false;
+            }
+        }
+
+
+        return true;
     }
 
 }
