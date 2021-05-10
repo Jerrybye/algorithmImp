@@ -214,4 +214,21 @@ class Solution {
         return true;
     }
 
+    public int[][] kClosest(int[][] points, int k) {
+        int res[][] = new int[k][2];
+        PriorityQueue<int[]> topK = new PriorityQueue<>(k, (a, b) -> a[0] * a[0] + a[1] * a[1] - b[0] * b[0] - b[1] * b[1]);
+
+        for (int i = 0; i < points.length; i++) {
+            if (points[i].length > 0) {
+                topK.add(points[i]);
+            }
+        }
+
+        for (int i = 0; i < res.length; i++) {
+            res[i] = topK.poll();
+        }
+
+        return res;
+    }
 }
+

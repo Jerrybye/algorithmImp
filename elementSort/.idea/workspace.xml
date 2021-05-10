@@ -37,12 +37,13 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Application.ElementSort">
+  <component name="RunManager" selected="Application.MaxPQ">
     <configuration name="&lt;template&gt;" type="TestNG" default="true" selected="false">
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -50,6 +51,17 @@
     <configuration name="ElementSort" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="ElementSort" />
       <module name="elementSort" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Heap" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="Heap" />
+      <module name="elementSort" />
+      <method v="2" />
+    </configuration>
+    <configuration name="MaxPQ" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MaxPQ" />
+      <module name="elementSort" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
     <configuration name="Selection" type="Application" factoryName="Application">
@@ -68,46 +80,59 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MaxPQ" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="WindowStateProjectService">
-    <state width="1659" height="305" key="GridCell.Tab.0.bottom" timestamp="1620138351045">
-      <screen x="0" y="25" width="1680" height="965" />
+    <state width="1920" height="345" key="GridCell.Tab.0.bottom" timestamp="1620246027815">
+      <screen x="0" y="23" width="3840" height="977" />
     </state>
+    <state width="1920" height="345" key="GridCell.Tab.0.bottom/0.23.3840.977@0.23.3840.977" timestamp="1620246027815" />
     <state width="1659" height="246" key="GridCell.Tab.0.bottom/0.25.1680.964@0.25.1680.964" timestamp="1620015840529" />
     <state width="1659" height="305" key="GridCell.Tab.0.bottom/0.25.1680.965@0.25.1680.965" timestamp="1620138351045" />
-    <state width="1659" height="305" key="GridCell.Tab.0.center" timestamp="1620138351043">
-      <screen x="0" y="25" width="1680" height="965" />
+    <state width="1920" height="345" key="GridCell.Tab.0.center" timestamp="1620246027814">
+      <screen x="0" y="23" width="3840" height="977" />
     </state>
+    <state width="1920" height="345" key="GridCell.Tab.0.center/0.23.3840.977@0.23.3840.977" timestamp="1620246027814" />
     <state width="1659" height="246" key="GridCell.Tab.0.center/0.25.1680.964@0.25.1680.964" timestamp="1620015840528" />
     <state width="1659" height="305" key="GridCell.Tab.0.center/0.25.1680.965@0.25.1680.965" timestamp="1620138351043" />
-    <state width="1659" height="305" key="GridCell.Tab.0.left" timestamp="1620138351043">
-      <screen x="0" y="25" width="1680" height="965" />
+    <state width="1920" height="345" key="GridCell.Tab.0.left" timestamp="1620246027814">
+      <screen x="0" y="23" width="3840" height="977" />
     </state>
+    <state width="1920" height="345" key="GridCell.Tab.0.left/0.23.3840.977@0.23.3840.977" timestamp="1620246027814" />
     <state width="1659" height="246" key="GridCell.Tab.0.left/0.25.1680.964@0.25.1680.964" timestamp="1620015840528" />
     <state width="1659" height="305" key="GridCell.Tab.0.left/0.25.1680.965@0.25.1680.965" timestamp="1620138351043" />
-    <state width="1659" height="305" key="GridCell.Tab.0.right" timestamp="1620138351045">
-      <screen x="0" y="25" width="1680" height="965" />
+    <state width="1920" height="345" key="GridCell.Tab.0.right" timestamp="1620246027815">
+      <screen x="0" y="23" width="3840" height="977" />
     </state>
+    <state width="1920" height="345" key="GridCell.Tab.0.right/0.23.3840.977@0.23.3840.977" timestamp="1620246027814" />
     <state width="1659" height="246" key="GridCell.Tab.0.right/0.25.1680.964@0.25.1680.964" timestamp="1620015840529" />
     <state width="1659" height="305" key="GridCell.Tab.0.right/0.25.1680.965@0.25.1680.965" timestamp="1620138351045" />
-    <state width="1659" height="305" key="GridCell.Tab.1.bottom" timestamp="1620138351047">
-      <screen x="0" y="25" width="1680" height="965" />
+    <state width="1920" height="345" key="GridCell.Tab.1.bottom" timestamp="1620246027815">
+      <screen x="0" y="23" width="3840" height="977" />
     </state>
+    <state width="1920" height="345" key="GridCell.Tab.1.bottom/0.23.3840.977@0.23.3840.977" timestamp="1620246027815" />
     <state width="1659" height="305" key="GridCell.Tab.1.bottom/0.25.1680.964@0.25.1680.964" timestamp="1620015834961" />
     <state width="1659" height="305" key="GridCell.Tab.1.bottom/0.25.1680.965@0.25.1680.965" timestamp="1620138351047" />
-    <state width="1659" height="305" key="GridCell.Tab.1.center" timestamp="1620138351046">
-      <screen x="0" y="25" width="1680" height="965" />
+    <state width="1920" height="345" key="GridCell.Tab.1.center" timestamp="1620246027815">
+      <screen x="0" y="23" width="3840" height="977" />
     </state>
+    <state width="1920" height="345" key="GridCell.Tab.1.center/0.23.3840.977@0.23.3840.977" timestamp="1620246027815" />
     <state width="1659" height="305" key="GridCell.Tab.1.center/0.25.1680.964@0.25.1680.964" timestamp="1620015834961" />
     <state width="1659" height="305" key="GridCell.Tab.1.center/0.25.1680.965@0.25.1680.965" timestamp="1620138351046" />
-    <state width="1659" height="305" key="GridCell.Tab.1.left" timestamp="1620138351046">
-      <screen x="0" y="25" width="1680" height="965" />
+    <state width="1920" height="345" key="GridCell.Tab.1.left" timestamp="1620246027815">
+      <screen x="0" y="23" width="3840" height="977" />
     </state>
+    <state width="1920" height="345" key="GridCell.Tab.1.left/0.23.3840.977@0.23.3840.977" timestamp="1620246027815" />
     <state width="1659" height="305" key="GridCell.Tab.1.left/0.25.1680.964@0.25.1680.964" timestamp="1620015834960" />
     <state width="1659" height="305" key="GridCell.Tab.1.left/0.25.1680.965@0.25.1680.965" timestamp="1620138351046" />
-    <state width="1659" height="305" key="GridCell.Tab.1.right" timestamp="1620138351046">
-      <screen x="0" y="25" width="1680" height="965" />
+    <state width="1920" height="345" key="GridCell.Tab.1.right" timestamp="1620246027815">
+      <screen x="0" y="23" width="3840" height="977" />
     </state>
+    <state width="1920" height="345" key="GridCell.Tab.1.right/0.23.3840.977@0.23.3840.977" timestamp="1620246027815" />
     <state width="1659" height="305" key="GridCell.Tab.1.right/0.25.1680.964@0.25.1680.964" timestamp="1620015834961" />
     <state width="1659" height="305" key="GridCell.Tab.1.right/0.25.1680.965@0.25.1680.965" timestamp="1620138351046" />
     <state x="328" y="55" key="SettingsEditor" timestamp="1619990981623">
@@ -119,11 +144,21 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/ElementSort.java</url>
-          <line>38</line>
-          <option name="timeStamp" value="1" />
+          <url>file://$PROJECT_DIR$/src/Heap.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/MaxPQ.java</url>
+          <line>64</line>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo typeName="java.lang.Integer" fieldName="value" />
+      </pinned-members>
+    </pin-to-top-manager>
   </component>
 </project>

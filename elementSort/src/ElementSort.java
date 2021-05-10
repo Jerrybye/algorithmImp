@@ -1,5 +1,3 @@
-import java.util.Arrays;
-
 public class ElementSort {
 
     public static void selectionSort(Comparable[] a) {
@@ -30,7 +28,7 @@ public class ElementSort {
         }
     }
 
-    public static void hSort(Comparable[] a) {
+    public static void shellSort(Comparable[] a) {
         int N = a.length;
         int h = 1;
 
@@ -64,14 +62,14 @@ public class ElementSort {
 
     public static void main(String[] args) {
         Integer[] a = {1, 3, 2, 4, 1};
-        ElementSort.hSort(a);
+        Heap.sort(a);
 
 
         for (int aa : a) {
             System.out.println(aa);
         }
 
-        Arrays.sort(a);
+        //Arrays.sort(a);
 
     }
 }
