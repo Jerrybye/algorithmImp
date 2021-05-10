@@ -38,15 +38,33 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.PCWeightedQuickUnion">
     <configuration name="&lt;template&gt;" type="TestNG" default="true" selected="false">
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+    </configuration>
+    <configuration name="PCWeightedQuickUnion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="QuickUnion.PCWeightedQuickUnion" />
+      <module name="Leetcode" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="QuickUnion.QuickFindUF" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="QuickUnion.QuickFindUF" />
+      <module name="Leetcode" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <method v="2" />
+    </configuration>
+    <configuration name="QuickUnion.QuickUnionUF" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="QuickUnion.QuickUnionUF" />
+      <module name="Leetcode" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <method v="2" />
     </configuration>
     <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Intervals.Solution" />
@@ -58,9 +76,7 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+      <method v="2" />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
@@ -69,44 +85,78 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.PCWeightedQuickUnion" />
+      <item itemvalue="Application.QuickUnion.QuickFindUF" />
+      <item itemvalue="Application.QuickUnion.QuickUnionUF" />
+      <item itemvalue="Application.Solution" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PCWeightedQuickUnion" />
         <item itemvalue="Application.Solution" />
       </list>
     </recent_temporary>
   </component>
   <component name="WindowStateProjectService">
-    <state width="1920" height="345" key="GridCell.Tab.0.bottom" timestamp="1620101651609">
-      <screen x="0" y="23" width="3840" height="977" />
+    <state x="304" y="135" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1620273332959">
+      <screen x="0" y="25" width="1680" height="964" />
+    </state>
+    <state x="304" y="135" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.1680.964@0.25.1680.964" timestamp="1620273332959" />
+    <state width="1659" height="305" key="GridCell.Tab.0.bottom" timestamp="1620442031732">
+      <screen x="0" y="25" width="1680" height="964" />
     </state>
     <state width="1920" height="345" key="GridCell.Tab.0.bottom/0.23.3840.977@0.23.3840.977" timestamp="1620101651609" />
-    <state width="1920" height="345" key="GridCell.Tab.0.center" timestamp="1620101651608">
-      <screen x="0" y="23" width="3840" height="977" />
+    <state width="1659" height="305" key="GridCell.Tab.0.bottom/0.25.1680.964@0.25.1680.964" timestamp="1620442031732" />
+    <state width="1659" height="305" key="GridCell.Tab.0.center" timestamp="1620442031732">
+      <screen x="0" y="25" width="1680" height="964" />
     </state>
     <state width="1920" height="345" key="GridCell.Tab.0.center/0.23.3840.977@0.23.3840.977" timestamp="1620101651608" />
-    <state width="1920" height="345" key="GridCell.Tab.0.left" timestamp="1620101651608">
-      <screen x="0" y="23" width="3840" height="977" />
+    <state width="1659" height="305" key="GridCell.Tab.0.center/0.25.1680.964@0.25.1680.964" timestamp="1620442031732" />
+    <state width="1659" height="305" key="GridCell.Tab.0.left" timestamp="1620442031732">
+      <screen x="0" y="25" width="1680" height="964" />
     </state>
     <state width="1920" height="345" key="GridCell.Tab.0.left/0.23.3840.977@0.23.3840.977" timestamp="1620101651608" />
-    <state width="1920" height="345" key="GridCell.Tab.0.right" timestamp="1620101651608">
-      <screen x="0" y="23" width="3840" height="977" />
+    <state width="1659" height="305" key="GridCell.Tab.0.left/0.25.1680.964@0.25.1680.964" timestamp="1620442031732" />
+    <state width="1659" height="305" key="GridCell.Tab.0.right" timestamp="1620442031732">
+      <screen x="0" y="25" width="1680" height="964" />
     </state>
     <state width="1920" height="345" key="GridCell.Tab.0.right/0.23.3840.977@0.23.3840.977" timestamp="1620101651608" />
-    <state width="1920" height="345" key="GridCell.Tab.1.bottom" timestamp="1620078655167">
-      <screen x="0" y="23" width="3840" height="977" />
+    <state width="1659" height="305" key="GridCell.Tab.0.right/0.25.1680.964@0.25.1680.964" timestamp="1620442031732" />
+    <state width="1659" height="305" key="GridCell.Tab.1.bottom" timestamp="1620442031733">
+      <screen x="0" y="25" width="1680" height="964" />
     </state>
     <state width="1920" height="345" key="GridCell.Tab.1.bottom/0.23.3840.977@0.23.3840.977" timestamp="1620078655167" />
-    <state width="1920" height="345" key="GridCell.Tab.1.center" timestamp="1620078655166">
-      <screen x="0" y="23" width="3840" height="977" />
+    <state width="1659" height="305" key="GridCell.Tab.1.bottom/0.25.1680.964@0.25.1680.964" timestamp="1620442031733" />
+    <state width="1659" height="305" key="GridCell.Tab.1.center" timestamp="1620442031733">
+      <screen x="0" y="25" width="1680" height="964" />
     </state>
     <state width="1920" height="345" key="GridCell.Tab.1.center/0.23.3840.977@0.23.3840.977" timestamp="1620078655166" />
-    <state width="1920" height="345" key="GridCell.Tab.1.left" timestamp="1620078655166">
-      <screen x="0" y="23" width="3840" height="977" />
+    <state width="1659" height="305" key="GridCell.Tab.1.center/0.25.1680.964@0.25.1680.964" timestamp="1620442031733" />
+    <state width="1659" height="305" key="GridCell.Tab.1.left" timestamp="1620442031733">
+      <screen x="0" y="25" width="1680" height="964" />
     </state>
     <state width="1920" height="345" key="GridCell.Tab.1.left/0.23.3840.977@0.23.3840.977" timestamp="1620078655166" />
-    <state width="1920" height="345" key="GridCell.Tab.1.right" timestamp="1620078655167">
-      <screen x="0" y="23" width="3840" height="977" />
+    <state width="1659" height="305" key="GridCell.Tab.1.left/0.25.1680.964@0.25.1680.964" timestamp="1620442031733" />
+    <state width="1659" height="305" key="GridCell.Tab.1.right" timestamp="1620442031733">
+      <screen x="0" y="25" width="1680" height="964" />
     </state>
     <state width="1920" height="345" key="GridCell.Tab.1.right/0.23.3840.977@0.23.3840.977" timestamp="1620078655167" />
+    <state width="1659" height="305" key="GridCell.Tab.1.right/0.25.1680.964@0.25.1680.964" timestamp="1620442031733" />
+    <state x="328" y="55" key="SettingsEditor" timestamp="1620265977730">
+      <screen x="0" y="25" width="1680" height="964" />
+    </state>
+    <state x="328" y="55" key="SettingsEditor/0.25.1680.964@0.25.1680.964" timestamp="1620265977730" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/QuickUnion/WeightedQuickUnionUF.java</url>
+          <line>53</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
