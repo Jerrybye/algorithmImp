@@ -86,9 +86,9 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.PCWeightedQuickUnion" />
       <item itemvalue="Application.QuickUnion.QuickFindUF" />
       <item itemvalue="Application.QuickUnion.QuickUnionUF" />
+      <item itemvalue="Application.PCWeightedQuickUnion" />
       <item itemvalue="Application.Solution" />
     </list>
     <recent_temporary>

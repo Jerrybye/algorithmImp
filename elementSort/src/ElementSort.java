@@ -60,16 +60,36 @@ public class ElementSort {
 
     }
 
-    public static void main(String[] args) {
-        Integer[] a = {1, 3, 2, 4, 1};
-        Heap.sort(a);
+    public static int binarySearch(int[] a, int key) {
+        int lo = 0;
+        int hi = a.length - 1;
 
+        while (lo <= hi) {
+            int mid = lo + (hi - lo) / 2;
 
-        for (int aa : a) {
-            System.out.println(aa);
+            if (key < a[mid]) hi = mid - 1;
+            if (key > a[mid]) lo = mid + 1;
+            else return mid;
         }
 
-        //Arrays.sort(a);
+        return -1;
+    }
 
+    public static void main(String[] args) {
+        int[] a = {1, 1, 2, 2, 3, 4, 5};
+
+
+        System.out.println(ElementSort.binarySearch(a, 2));
+        /*
+         * [0,0,1,0,0],
+         * [0,0,0,0,0],
+         * [0,0,0,1,0],
+         * [1,1,0,1,1],
+         * [0,0,0,0,0]
+         *
+         * [1,1,1], (0,1) (0,2) (1,2)
+         * [1,1,1],
+         * [1,1,1]
+         * */
     }
 }
