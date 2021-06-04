@@ -4,6 +4,7 @@ public class WeightedQuickUnionUF {
 
     private int[] id;
     private int[] sz;
+    private int size = 0;
 
     public WeightedQuickUnionUF(int N) {
 
@@ -12,6 +13,7 @@ public class WeightedQuickUnionUF {
         for (int i = 0; i < N; i++) {
             id[i] = i;
         }
+
     }
 
     public int root(int p) {
@@ -19,6 +21,18 @@ public class WeightedQuickUnionUF {
             p = id[p];
         }
         return p;
+    }
+
+    public int components() {
+        for (int size : sz) {
+            if (size == 0) {
+                continue;
+            }
+
+            this.size++;
+        }
+
+        return this.size;
     }
 
     public boolean connected(int p, int q) {
@@ -43,15 +57,10 @@ public class WeightedQuickUnionUF {
     }
 
     public static void main(String args[]) {
-        QuickFindUF qf = new QuickFindUF(100);
+        QuickUnion.QuickFindUF qf = new QuickUnion.QuickFindUF(10);
 
         qf.union(1, 3);
-        qf.union(3, 4);
-        qf.union(6, 4);
-        qf.union(9, 10);
-        qf.union(20, 9);
 
-        assert qf.connected(1, 5);
 
     }
 }
