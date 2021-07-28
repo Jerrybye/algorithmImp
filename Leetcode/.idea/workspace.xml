@@ -44,12 +44,16 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
+<<<<<<< HEAD
   <component name="RunManager" selected="Application.StringPlay.Solution">
+=======
+  <component name="RunManager" selected="Application.Solution">
+>>>>>>> df75946a7c6f61f62fd9aa4b451947afb0e330e7
     <configuration name="&lt;template&gt;" type="TestNG" default="true" selected="false">
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -82,6 +86,7 @@
       <option name="VM_PARAMETERS" value="-ea" />
       <method v="2" />
     </configuration>
+<<<<<<< HEAD
     <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DFS.Solution" />
       <module name="Leetcode" />
@@ -96,11 +101,12 @@
     </configuration>
     <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Intervals.Solution" />
+=======
+    <configuration name="Solution" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="Solution" />
+>>>>>>> df75946a7c6f61f62fd9aa4b451947afb0e330e7
       <module name="Leetcode" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+      <method v="2" />
     </configuration>
     <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="StringPlay.Solution" />
@@ -154,6 +160,7 @@
       <screen x="0" y="25" width="3840" height="936" />
     </state>
     <state x="304" y="135" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.1680.964@0.25.1680.964" timestamp="1620273332959" />
+<<<<<<< HEAD
     <state x="695" y="132" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.3840.936@0.25.3840.936" timestamp="1622174373927" />
     <state x="1493" y="184" key="#com.intellij.ide.util.MemberChooser" timestamp="1623208374624">
       <screen x="0" y="25" width="3840" height="938" />
@@ -282,20 +289,72 @@
     <state width="1899" height="269" key="GridCell.Tab.1.right/0.25.3840.952@0.25.3840.952" timestamp="1623700660736" />
     <state x="328" y="55" key="SettingsEditor" timestamp="1620265977730">
       <screen x="0" y="25" width="1680" height="964" />
+=======
+    <state width="1898" height="345" key="GridCell.Tab.0.bottom" timestamp="1620758794901">
+      <screen x="0" y="23" width="3840" height="977" />
     </state>
+    <state width="1898" height="345" key="GridCell.Tab.0.bottom/0.23.3840.977@0.23.3840.977" timestamp="1620758794901" />
+    <state width="1659" height="305" key="GridCell.Tab.0.bottom/0.25.1680.964@0.25.1680.964" timestamp="1620442031732" />
+    <state width="1898" height="345" key="GridCell.Tab.0.center" timestamp="1620758794900">
+      <screen x="0" y="23" width="3840" height="977" />
+    </state>
+    <state width="1898" height="345" key="GridCell.Tab.0.center/0.23.3840.977@0.23.3840.977" timestamp="1620758794900" />
+    <state width="1659" height="305" key="GridCell.Tab.0.center/0.25.1680.964@0.25.1680.964" timestamp="1620442031732" />
+    <state width="1898" height="345" key="GridCell.Tab.0.left" timestamp="1620758794899">
+      <screen x="0" y="23" width="3840" height="977" />
+    </state>
+    <state width="1898" height="345" key="GridCell.Tab.0.left/0.23.3840.977@0.23.3840.977" timestamp="1620758794899" />
+    <state width="1659" height="305" key="GridCell.Tab.0.left/0.25.1680.964@0.25.1680.964" timestamp="1620442031732" />
+    <state width="1898" height="345" key="GridCell.Tab.0.right" timestamp="1620758794901">
+      <screen x="0" y="23" width="3840" height="977" />
+    </state>
+    <state width="1898" height="345" key="GridCell.Tab.0.right/0.23.3840.977@0.23.3840.977" timestamp="1620758794901" />
+    <state width="1659" height="305" key="GridCell.Tab.0.right/0.25.1680.964@0.25.1680.964" timestamp="1620442031732" />
+    <state width="1898" height="345" key="GridCell.Tab.1.bottom" timestamp="1620758794903">
+      <screen x="0" y="23" width="3840" height="977" />
+    </state>
+    <state width="1898" height="345" key="GridCell.Tab.1.bottom/0.23.3840.977@0.23.3840.977" timestamp="1620758794903" />
+    <state width="1659" height="305" key="GridCell.Tab.1.bottom/0.25.1680.964@0.25.1680.964" timestamp="1620442031733" />
+    <state width="1898" height="345" key="GridCell.Tab.1.center" timestamp="1620758794902">
+      <screen x="0" y="23" width="3840" height="977" />
+    </state>
+    <state width="1898" height="345" key="GridCell.Tab.1.center/0.23.3840.977@0.23.3840.977" timestamp="1620758794902" />
+    <state width="1659" height="305" key="GridCell.Tab.1.center/0.25.1680.964@0.25.1680.964" timestamp="1620442031733" />
+    <state width="1898" height="345" key="GridCell.Tab.1.left" timestamp="1620758794901">
+      <screen x="0" y="23" width="3840" height="977" />
+    </state>
+    <state width="1898" height="345" key="GridCell.Tab.1.left/0.23.3840.977@0.23.3840.977" timestamp="1620758794901" />
+    <state width="1659" height="305" key="GridCell.Tab.1.left/0.25.1680.964@0.25.1680.964" timestamp="1620442031733" />
+    <state width="1898" height="345" key="GridCell.Tab.1.right" timestamp="1620758794902">
+      <screen x="0" y="23" width="3840" height="977" />
+    </state>
+    <state width="1898" height="345" key="GridCell.Tab.1.right/0.23.3840.977@0.23.3840.977" timestamp="1620758794902" />
+    <state width="1659" height="305" key="GridCell.Tab.1.right/0.25.1680.964@0.25.1680.964" timestamp="1620442031733" />
+    <state x="1215" y="95" key="SettingsEditor" timestamp="1620679411650">
+      <screen x="0" y="23" width="3840" height="977" />
+>>>>>>> df75946a7c6f61f62fd9aa4b451947afb0e330e7
+    </state>
+    <state x="1215" y="95" key="SettingsEditor/0.23.3840.977@0.23.3840.977" timestamp="1620679411650" />
     <state x="328" y="55" key="SettingsEditor/0.25.1680.964@0.25.1680.964" timestamp="1620265977730" />
+<<<<<<< HEAD
     <state x="505" y="233" width="670" height="676" key="search.everywhere.popup" timestamp="1621915101045">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1621915101045" />
+=======
+    <state x="515" y="23" width="1418" height="604" key="dock-window-1" timestamp="1621451059272">
+      <screen x="0" y="23" width="3840" height="977" />
+    </state>
+    <state x="515" y="23" width="1418" height="604" key="dock-window-1/0.23.3840.977@0.23.3840.977" timestamp="1621451059272" />
+>>>>>>> df75946a7c6f61f62fd9aa4b451947afb0e330e7
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/QuickUnion/WeightedQuickUnionUF.java</url>
-          <line>53</line>
-          <option name="timeStamp" value="1" />
+          <url>file://$PROJECT_DIR$/src/QuickUnion/Solution.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="16" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/BinarySearchTree/BST.java</url>
