@@ -21,7 +21,7 @@ public class Solution {
 
         //left
         if (p > 1 && bgrid[p - 1][q] == true) {
-            wuf.connected()
+            // wuf.connected()
         }
     }
 }
